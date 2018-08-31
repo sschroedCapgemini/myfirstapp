@@ -25,7 +25,7 @@ public abstract class AbstractBoosterApplicationTest {
 
     private static final String GREETING_PATH = "api/greeting";
 
-    @Test
+    /*@Test
     public void testGreetingEndpoint() {
         given()
            .baseUri(baseURI())
@@ -45,7 +45,7 @@ public abstract class AbstractBoosterApplicationTest {
            .then()
            .statusCode(200)
            .body("content", is(String.format(Greeting.FORMAT, "John")));
-    }
+    }*/
 
     protected abstract String baseURI();
 }
